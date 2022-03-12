@@ -7,16 +7,6 @@ namespace ModCalculator
 	{
 		static void Main(string[] args)
 		{
-			//Console.WriteLine("Enter a dividend:");
-			//var dividend = long.Parse(Console.ReadLine());
-
-			//Console.WriteLine("Enter a divisor:");
-			//var divisor = long.Parse(Console.ReadLine());
-
-			//var result = dividend - (dividend / divisor) * divisor;
-
-			//Console.WriteLine($"The result of {dividend} mod {divisor} is: {result}");
-
 			Console.WriteLine("Enter values for a, b, g, and p");
 
 			var a = new BigInteger(int.Parse(Console.ReadLine()));
